@@ -1833,6 +1833,18 @@ body.finale-particles .finale-fallback{opacity:0}
   margin-top:14px;font-family:var(--f-body);
   font-size:clamp(14px,3.6vw,16px);color:var(--ink);line-height:1.4;
 }
+.scene--dark .invite,
+.scene--grand .invite{
+  background:transparent;
+  border:none;
+  box-shadow:none;
+  padding:0;
+  margin:clamp(20px,3vw,32px) auto;
+}
+.scene--dark .invite::before,
+.scene--grand .invite::before{
+  display:none;
+}
 .scene--dark .invite-address,
 .scene--dark .invite-bride-parents{
   color:rgba(243,233,214,.75);
