@@ -1863,12 +1863,12 @@ body.finale-particles .finale-fallback{opacity:0}
   color:var(--gold-lt);
 }
 .invite-address{
-  margin-top:8px;font-size:clamp(12px,3vw,14px);
-  color:var(--ink-soft);line-height:1.5;
+  margin-top:4px;font-size:clamp(10px,2.4vw,11px);
+  color:var(--ink-soft);line-height:1.4;
 }
 .invite-bride-parents{
-  margin-top:14px;font-family:var(--f-body);
-  font-size:clamp(14px,3.6vw,16px);color:var(--ink);line-height:1.4;
+  margin-top:8px;font-family:var(--f-body);
+  font-size:clamp(11px,2.8vw,13px);color:var(--ink);line-height:1.3;
 }
 .scene--dark .invite,
 .scene--grand .invite{
@@ -1939,18 +1939,18 @@ body.finale-particles .finale-fallback{opacity:0}
 .grand-names{
   display:flex;flex-direction:column;align-items:center;
   margin-top:clamp(26px,5vw,42px);
-  font-family:var(--f-display);font-weight:300;
-  font-size:clamp(30px,8.4vw,60px);line-height:1.06;
+  font-family:var(--f-display);font-weight:400;
+  font-size:clamp(42px,12vw,86px);line-height:1.06;
   color:#FFF6E3;
   text-shadow:0 2px 34px rgba(255,196,110,.38);
 }
 .grand-names__amp{
-  font-style:italic;font-size:.42em;color:var(--gold-lt);opacity:.92;margin:4px 0;
+  font-style:italic;font-size:.38em;color:var(--gold-lt);opacity:.92;margin:4px 0;
 }
 .grand-tagline{
-  margin-top:clamp(14px,2.6vw,20px);text-align:center;
+  margin-top:clamp(10px,2vw,16px);text-align:center;
   font-family:var(--f-display);font-style:italic;font-weight:300;
-  font-size:clamp(16px,4.2vw,23px);color:rgba(243,233,214,.74);
+  font-size:clamp(12px,3vw,16px);color:rgba(243,233,214,.74);
 }
 
 /* ---------- contact info ---------- */
